@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#header {
+ 
+  left:0;
+  margin-top:0;
+  position:relative;
+  right:0;
+  top:0;
+  width:100%;
+  z-index:1001;
+}
+
+#header .top-header-block {
+  background:#fff;
+  margin:-1px 0 0;
+  
+  padding:1px 0 2px;
+  position:relative;
+  width:100%;
+  z-index:10;
+}
+#header .logo {margin:0 40px;}
+.top-nav-block {background:#333;}
+.topBand {background:#e96734; height:5px; display:block; width:100%; margin:1px 0;}
+#footer {background:#CCC; height:40px; width:100%; bottom:0; position:fixed;}
+
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.input-full {width:400px;}
+.input-small {width:100px;}
+
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {background:#333;}
+.navbar-right .dropdown-menu {margin-right:10px;}
+.top-nav > li {
+    display: inline-block;
+    float: left;
+}
+.top-nav {padding: 0 15px;}
+top-nav > li > a {
+    color: #999;
+    line-height: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.side-nav > li > a {
+    width: 225px;
+}
+.top-nav > li> a {color:#fff;}
+.top-nav > li> a:hover {color:#333;}
+.panel-itransaction {border-color:#e96734;}
+.panel-itransaction .panel-heading {
+    background-color: #e96734;
+    border-color: #e96734;
+    color: #fff;
+}

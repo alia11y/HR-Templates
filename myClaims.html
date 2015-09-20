@@ -1,0 +1,268 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Employee Portal- Home</title>
+<meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+ <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+        
+         <link href="css/simple-sidebar.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+<header id="header">
+<div class="top-header-block">
+<span class="logo"><img src="images/nihaki_logo_orig.gif" width="250px"></span>
+
+<ul class="nav navbar-right top-nav top-nav-block">
+              <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="#">Alert Name <span class="label label-default">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-primary">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-success">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-info">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-warning">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-danger">Alert Badge</span></a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">View All</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-user"></i> Nitin Singhal <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+</div>
+</header>
+<div class="topBand"></div>
+ <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="nav navbar-nav side-nav">
+                <li class="sidebar-brand">
+                    <a href="dashboard.html">
+                      <i class="fa fa-fw fa-home"></i>  Home
+                    </a>
+                </li>
+                <li>
+                    <a href="general-info.html"><i class="fa fa-fw fa-bar-chart-o"></i> General Information</a>
+
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-search"></i>My Travel</a>
+                </li>
+                <li>
+                    <a href="dependents.html"><i class="fa fa-fw fa-edit"></i>Dependents</a>
+                </li>
+                                <li>
+                    <a href="#"><i class="fa fa-fw fa-edit"></i>Dependents Travel</a>
+                </li>
+                <li>
+                    <a href="myClaims.html"><i class="fa fa-fw fa-file"></i>My Claims</a>
+                </li>
+               
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-wrench"></i> Emergency Contact</a>
+                </li>
+             
+                
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-user"></i>  About</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+            <div class="row"><a href="#menu-toggle" class="btn btn-warning" id="menu-toggle">Toggle Menu</a></div>
+            <div class="row">
+                    <div class="col-lg-12">
+                    
+                
+                    <p><br>
+                    <button class="btn btn-default" type="submit">Save</button>
+                    <button class="btn btn-default" type="submit">Close</button>
+                  
+                    </p>
+
+                    
+                    
+                        <h1 class="page-header">
+                            My Claims
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li class="active">
+                                <i class="fa fa-dashboard"></i> <strong>Nitin Singhal</strong>
+                            </li>
+                            <li>Tickets</li>
+                            <li>Create Tickets</li>
+                            <li>New</li>
+                        </ol>
+                    </div>
+                </div>
+            
+        
+        <!-- Form starts-->
+        
+         <form class="form-horizontal">
+        <div class="form-group">
+            <label for="firstname" class="col-sm-2 control-label">Employee</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control input-full" id="firstName" placeholder="Nitin Singhal">
+            </div>
+          </div>
+          
+         
+          <div class="form-group">
+            <label for="firstname" class="col-sm-2 control-label">Ticket Catagory</label>
+            <div class="col-sm-10">
+            <select class="form-control input-full">
+              <option>None</option>
+              <option>401</option>
+              <option>Benefits</option>
+              <option>Immigration</option>
+              <option>Medical</option>
+            </select>
+                         
+            </div>
+          </div> 
+          
+          
+          <div class="form-group">
+            <label for="firstname" class="col-sm-2 control-label">Description</label>
+            <div class="col-sm-10">
+              <textarea class="form-control noresize"></textarea>           
+            </div>
+          </div> 
+          
+           <div class="form-group">
+            <label for="firstname" class="col-sm-2 control-label">Attachment</label>
+            <div class="col-sm-10">
+              <input type="file" class="form-control input-full" id="firstName">
+            </div>
+          </div>
+       
+        <p><br>
+                    <button  class="btn btn-primary" type="submit">Save</button>
+                    <button type="submit" class="btn btn-primary">Close</button>
+                  
+                    </p>
+          
+          </form>
+        
+        
+        <table class="table table-hover">
+       <thead>
+       <tr>
+       		<th>Document Name</th>
+            <th>Document Catagory</th>
+            <th>Document File Path</th>
+            
+            
+       </tr>
+       
+       </thead>
+       
+       <tbody>
+       <tr>
+       	<td><button>View</button> <button>Edit</button></td>
+        <td>Riya Singhal</td>
+        <td>Spouse</td>
+       
+       </tr>
+       <tr>
+       	<td><button>View</button> <button>Edit</button></td>
+        <td>Abc Singhal</td>
+        <td>Son</td>
+        
+       </tr>
+       </tbody>
+       
+ 
+		</table>
+       
+        
+               
+               
+               
+               
+               
+               
+                
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
